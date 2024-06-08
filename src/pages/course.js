@@ -19,19 +19,19 @@ export default function Course() {
     </nav>
 <div style={myStyle}> 
   <h1>Welcome!</h1> 
-  <p>Below is the curriculum that is slowly coming together. What do you need help with?</p>
+  <p>Below is the curriculum that is slowly coming together. What do you need help with? Let me know so we can get it added!</p>
   <ol>
     <li>Course Overview</li>
     <ul>
         <li><Link href="/lessons/sectionOne/sectionOneGoals">Goals for this Section</Link></li>
-        <li><Link href="/lessons/sectionOne/">What this course IS</Link></li>
-        <li><Link href="/lessons/sectionOne/sectionOneGoals">What this course is NOT</Link></li>
-        <li><Link href="/lessons/sectionOne/sectionOneGoals">Examples of jobs I'm referring to</Link></li>
-        <li><Link href="/lessons/sectionOne/sectionOneGoals">A realistic timeline</Link></li>
-        <li><Link href="/lessons/sectionOne/sectionOneGoals">My personal experience</Link></li>
-        <li><Link href="/lessons/sectionOne/sectionOneGoals">My style of teaching</Link></li>
-        <li><Link href="/lessons/sectionOne/sectionOneGoals">Knowledge check</Link></li>
-        <li><Link href="/lessons/sectionOne/sectionOneGoals">How you can help</Link></li>
+        <li><Link href="/lessons/sectionOne/whatThisCourseIs">What this course IS</Link></li>
+        <li><Link href="/lessons/sectionOne/whatThisCourseIsNot">What this course is NOT</Link></li>
+        <li><Link href="/lessons/sectionOne/jobExamples">Examples of jobs I'm referring to</Link></li>
+        <li><Link href="/lessons/sectionOne/realisticTimeline">A realistic timeline</Link></li>
+        <li><Link href="/lessons/sectionOne/personalExperience">My personal experience</Link></li>
+        <li><Link href="/lessons/sectionOne/teachingStyle">My style of teaching</Link></li>
+        <li><Link href="/lessons/sectionOne/knowledgeCheckOne">Knowledge check</Link></li>
+        <li><Link href="/lessons/sectionOne/helpOne">How you can help</Link></li>
     </ul>
     <li>The Truth about getting a Software Engineering job
       <ul>

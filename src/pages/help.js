@@ -10,6 +10,14 @@ const parentStyle = {
 
 export default function Help() {
     return (<> 
+    <nav>
+        <ul>      
+            <li><Link href="/lessons/sectionOne/sectionOneGoals">Home</Link></li>
+            <li><Link href="/course">Course</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/help">How you can help</Link></li>
+        </ul>
+    </nav>
     <div style={parentStyle}>
 
     <h1>HELP ME!</h1>
@@ -27,12 +35,6 @@ export default function Help() {
             and show them to your friends then we'll have the course
             for more and more people!
         </div>
-        <ul>      
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/course">Course</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/help">How you can help</Link></li>
-        </ul>
         </div>
         </>);
 }
