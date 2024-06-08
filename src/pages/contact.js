@@ -7,7 +7,7 @@ const parentStyle = {
   };
 
 
-export default function Home() {
+export default function Contact() {
   return (
     <div style={parentStyle}>
     <h1>Contact</h1>

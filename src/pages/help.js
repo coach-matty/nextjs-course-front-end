@@ -8,7 +8,7 @@ const parentStyle = {
 
 
 
-export default function About() {
+export default function Help() {
     return (<> 
     <div style={parentStyle}>
 
@@ -16,7 +16,7 @@ export default function About() {
         <h2>There are TWO ways you can help!</h2>
         <div>
             <strong>First</strong> - You can help by joining my <a href="https://www.patreon.com/mattypurple">
-            Patreon!</a> or my <a href="https://gofund.me/4aa27eff">
+            Patreon</a> or through a one-time donation at my <a href="https://gofund.me/4aa27eff">
             GoFundMe!</a>
             
             <p>I have tiers starting at 1$ a month! Be a part of the movement!</p>
