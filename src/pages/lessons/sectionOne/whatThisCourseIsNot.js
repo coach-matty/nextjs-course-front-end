@@ -8,7 +8,7 @@ const parentStyle = {
 
 
 
-export default function Help() {
+export default function WhatThisCourseIsNot() {
     return (<> 
     <nav>
             <ul>      
