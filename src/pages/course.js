@@ -6,17 +6,17 @@ const myStyle = {
   padding: 100
 };
 
-const firstText = {
-  padding: 50
-}
-
-const listStyle = {
-  padding: 10
-}
-
 
 export default function Course() {
   return (<>
+      <nav>
+            <ul>      
+            <li><Link href="/lessons/sectionOneGoals">Home</Link></li>
+            <li><Link href="/course">Course</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/help">How you can help</Link></li>
+        </ul>
+    </nav>
 <div style={myStyle}> 
   <h1>Welcome!</h1> 
   <p>Below is the curriculum that is slowly coming together. What do you need help with?</p>
@@ -50,6 +50,8 @@ export default function Course() {
       </ul>
     </li>
     <li>Soft Skills</li>
+      <ul></ul>
+
     <li>More Technical topics</li>
         <ul>
             <li>Begin with a quiz</li>
@@ -64,11 +66,6 @@ export default function Course() {
         <ul>
             <li>What is giving you trouble</li>
          </ul>
-  <ul style={listStyle}>      
-        <li><Link href="/contact">Contact</Link></li>
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/help">How you can help</Link></li>
-      </ul>
   </ol>
     </div>
     </>);
