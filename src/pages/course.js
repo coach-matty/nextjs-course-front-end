@@ -40,7 +40,9 @@ export default function Course() {
         <li>The perfect formula</li>
         <li>Most people are nice</li>
         <li>Buzz words</li>
+        <li>Learning how to learn</li>
         <li>Communicating in a succint manner</li>
+        <li>Take breaks</li>
         <li>The Knowledge Venn Diagram</li>
         <li>Everything must be happening for a reason</li>
         <li>Asking for help vs. figuring it out on your own</li>
