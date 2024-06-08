@@ -31,7 +31,7 @@ export default function Course() {
         <li><Link href="/lessons/sectionOne/personalExperience">My personal experience</Link></li>
         <li><Link href="/lessons/sectionOne/teachingStyle">My style of teaching</Link></li>
         <li><Link href="/lessons/sectionOne/knowledgeCheckOne">Knowledge check</Link></li>
-        <li><Link href="/lessons/sectionOne/helpOne">How you can help</Link></li>
+        <li><Link href="/help">How you can help</Link></li>
     </ul>
     <li>The Truth about getting a Software Engineering job
       <ul>
