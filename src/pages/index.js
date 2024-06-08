@@ -21,9 +21,9 @@ export default function Home() {
   <h1>Welcome!</h1> 
       
     <div>Hi! You've landed at Coach Matty's FREE course on how to get a job in software engineering!</div> 
-    <div>It's my mission to provide the most helpful content to help you get a job as a Software Engineer.
-      
-    </div>
+    <div>It's my mission to provide the most helpful content to help you get a job as a Software Engineer.</div>
+    <div>This site is just getting started - so hang tight!</div>
+
       <ul style={listStyle}>      
         <li><Link href="/contact">Contact</Link></li>
         <li><Link href="/course">Course</Link></li>
