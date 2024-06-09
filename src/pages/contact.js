@@ -4,7 +4,6 @@ const parentStyle = {
     backgroundColor: '#E5E5E5',
     height: 500,
     padding: 50
-
   };
 
 
