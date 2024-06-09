@@ -15,6 +15,10 @@ const wordSpacing = {
   padding: 0 
 }
 
+const navBar = {
+  
+}
+
 
 export default function Home() {
   return (<>

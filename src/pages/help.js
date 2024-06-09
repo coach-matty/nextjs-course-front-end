@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const parentStyle = {
     backgroundColor: '#E5E5E5',
-    height: 500,
+    height: 550,
     padding: 100
 }
 
