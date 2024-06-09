@@ -6,13 +6,11 @@ const myStyle = {
   padding: 100
 };
 
-const firstText = {
-  padding: 50
+const mattFace = {
+  width: 400,
+  height: 400
 }
 
-const listStyle = {
-  padding: 10
-}
 
 
 export default function Home() {
@@ -25,12 +23,15 @@ export default function Home() {
             <li><Link href="/help">How you can help</Link></li>
         </ul>
     </nav>
+    <img style={mattFace} src="/images/matt_face.png" alt="Coach Matty's Face" />
+
 <div style={myStyle}> 
   <h1>Welcome!</h1> 
       
     <div>Hi! You've landed at Coach Matty's FREE software engineering course!</div> 
     <div>It's my mission to provide the most helpful content to help you get a job as a Software Engineer. Or, if you have a job, hopefully I can teach you a few things!</div>
     <div>This site is just getting started - so hang tight!</div>
+    <div>Shameless plug - I am trying to give back to my community as much as possible.<Link href="/help"> See how you can help!</Link></div>
     </div>
     </>);
 }
