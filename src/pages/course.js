@@ -6,10 +6,15 @@ const myStyle = {
   padding: 100
 };
 
+const navStlye = {
+  backgroundColor: '#96C8EE',
+  padding: 10
+}
+
 
 export default function Course() {
   return (<>
-      <nav>
+      <nav style={navStlye}>
             <ul>      
             <li><Link href="/">Home</Link></li>
             <li><Link href="/course">Course</Link></li>
@@ -18,7 +23,7 @@ export default function Course() {
         </ul>
     </nav>
 <div style={myStyle}> 
-  <h1>Welcome!</h1> 
+  <h1>Lessons</h1> 
   <p>Below is the curriculum that is slowly coming together. What do you need help with? Let me know so we can get it added!</p>
   <ol>
     <li>Course Overview</li>
@@ -33,37 +38,42 @@ export default function Course() {
         <li><Link href="/lessons/sectionOne/knowledgeCheckOne">Knowledge check</Link></li>
         <li><Link href="/help">How you can help</Link></li>
     </ul>
-    <li>The Truth about getting a Software Engineering job
+    <li>A look at the job-getting process 
       <ul>
         <li>Goals for this section</li>
+        <li>What is your background?</li>
         <li>The leetcode demon</li>
         <li>The perfect formula</li>
-        <li>Most people are nice</li>
-        <li>Buzz words</li>
-        <li>Learning how to learn</li>
-        <li>Communicating in a succint manner</li>
-        <li>Take breaks</li>
-        <li>The Knowledge Venn Diagram</li>
-        <li>Everything must be happening for a reason</li>
-        <li>Asking for help vs. figuring it out on your own</li>
-        <li>Problem solving</li>
+        <li>Bad job descriptions</li>
+        <li>A more detailed timeline</li>
+        <li>You're not perfect / Other humans are interviewing you</li>
         <li>Knoweldge Check</li>
         <li>I am once again asking for your help.</li>
       </ul>
     </li>
-    <li>Soft Skills</li>
-      <ul></ul>
+    <li>General Skills / Unsolicited advice</li>
+      <ul>
+        <li>Learning how to learn</li>
+        <li>Problem solving</li>
+        <li>Take breaks</li>
+        <li>Everything must be happening for a reason</li>
+        <li>Coach Matty's weird techinques for learning</li>
+        <li>Most people are nice</li>
+        <li>The Knowledge Venn Diagram</li>
+        <li>Communicating in a succint manner</li>
+      </ul>
 
-    <li>More Technical topics</li>
-        <ul>
-            <li>Begin with a quiz</li>
-            <li>What is coding?</li>
-            <li>What is a server?</li>
-            <li>From writing code to a building an app</li>
-            <li>Monoliths and Microservices</li>
-            <li>A casual look at system design</li>
-            <li>Distributed systems</li>
-        </ul>
+    <li>Technical topics</li>
+      <ul>
+        <li>Begin with a quiz</li>
+        <li>What is coding?</li>
+        <li>What is a server?</li>
+        <li>From writing code to a building an app</li>
+        <li>Monoliths and Microservices</li>
+        <li>A casual look at system design</li>
+        <li>Distributed systems</li>
+        <li>Getting comfortable with the terminal</li>
+      </ul>
       <li>What's next</li>
         <ul>
             <li>What is giving you trouble</li>

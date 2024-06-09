@@ -19,7 +19,7 @@ export default function Contact() {
         </ul>
     </nav>
     <div style={parentStyle}>
-    <h1>Contact</h1>z
+    <h1>Contact</h1>
       <div> You can email me at itsmattypurple@gmail.com</div>
       <div> I'd love to come speak at your conference or school.</div>
     </div>
