@@ -25,7 +25,7 @@ export default function Help() {
         <div>
             <strong>First</strong> - You can help by joining my <a href="https://www.patreon.com/mattypurple">
             Patreon</a> or through a one-time donation at my <a href="https://gofund.me/4aa27eff">
-            GoFundMe!</a>
+            GoFundMe!</a> Giving back to my community is extremely important to me.
             
             <p>I have tiers starting at 1$ a month! Be a part of the movement!</p>
             <p>For now I will be donating 100% of the money I receive.</p>
