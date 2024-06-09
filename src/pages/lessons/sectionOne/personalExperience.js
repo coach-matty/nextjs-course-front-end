@@ -24,7 +24,7 @@ export default function PersonalExperience() {
         <p>Here is a link to my <a href="https://www.linkedin.com/in/matthew-violet-722644104/">LinkedIn</a> so you can see that I'm a real person.</p>
         <p>Here's my story. I graduated from college in 2019 and was stuck between being a software engineer and a consultant.
             I ended up thinking my more outgoing personailty didn't fit in software, so I chose consulting. HUGE MISTAKE. I realized
-            how cool coding is and much I didn't like the people pleasing part of consulting.
+            how cool coding is and how much I didn't like the people pleasing part of consulting.
         </p>
         <p>The only problem was that I had already graduated and now I was back to the job hunt with no real experience outside of my 
             internships! So what did I do? I buckled up, reminded myself it wasnt going to be easy, and I got to work! 
