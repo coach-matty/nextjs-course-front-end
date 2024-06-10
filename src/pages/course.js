@@ -42,7 +42,7 @@ export default function Course() {
       <ul>
         <li><Link href="/lessons/sectionTwo/sectionTwoGoals">Goals for this section</Link></li>
         <li><Link href="/lessons/sectionTwo/yourBackground">What is your background?</Link></li>
-        <li><Link href="/lessons/sectionTwo/leetcodeDemon">The leetcode demon/Link</Link></li>
+        <li><Link href="/lessons/sectionTwo/leetcodeDemon">The leetcode demon</Link></li>
         <li><Link href="/lessons/sectionTwo/perfectForuma">The perfect formula</Link></li>
         <li><Link href="/lessons/sectionTwo/yourResume">Your resume</Link></li>
         <li><Link href="/lessons/sectionTwo/interviewedByHumans">You're being interviewed by humans</Link></li>
