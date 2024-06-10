@@ -31,7 +31,7 @@ export default function Course() {
         <li><Link href="/lessons/sectionOne/sectionOneGoals">Goals for this Section</Link></li>
         <li><Link href="/lessons/sectionOne/whatThisCourseIs">What this course IS</Link></li>
         <li><Link href="/lessons/sectionOne/whatThisCourseIsNot">What this course is NOT</Link></li>
-        <li><Link href="/lessons/sectionOne/jobExamples">Examples of jobs I'm referring to</Link></li>
+        <li><Link href="/lessons/sectionOne/jobExamples">Examples of jobs I'm referring to, and how to indentify bad ones</Link></li>
         <li><Link href="/lessons/sectionOne/realisticTimeline">A realistic timeline</Link></li>
         <li><Link href="/lessons/sectionOne/personalExperience">My personal experience</Link></li>
         <li><Link href="/lessons/sectionOne/teachingStyle">My style of teaching</Link></li>
@@ -40,20 +40,22 @@ export default function Course() {
     </ul>
     <li>A look at the job-getting process 
       <ul>
-        <li>Goals for this section</li>
-        <li>What is your background?</li>
-        <li>The leetcode demon</li>
-        <li>The perfect formula</li>
-        <li>Bad job descriptions</li>
-        <li>A more detailed timeline</li>
-        <li>You're not perfect / Other humans are interviewing you</li>
-        <li>Knoweldge Check</li>
-        <li>I am once again asking for your help.</li>
+        <li><Link href="/lessons/sectionTwo/sectionTwoGoals">Goals for this section</Link></li>
+        <li><Link href="/lessons/sectionTwo/yourBackground">What is your background?</Link></li>
+        <li><Link href="/lessons/sectionTwo/leetcodeDemon">The leetcode demon/Link</Link></li>
+        <li><Link href="/lessons/sectionTwo/perfectForuma">The perfect formula</Link></li>
+        <li><Link href="/lessons/sectionTwo/yourResume">Your resume</Link></li>
+        <li><Link href="/lessons/sectionTwo/interviewedByHumans">You're being interviewed by humans</Link></li>
+        <li><Link href="/lessons/sectionTwo/willThisBeDifficult">Will this be difficult?</Link></li>
+        <li><Link href="/lessons/sectionTwo/yourBackground">Knoweldge Check</Link></li>
+        <li><Link href="/lessons/sectionTwo/Help">I am once again asking for your help</Link></li>
       </ul>
     </li>
     <li>General Skills / Unsolicited advice</li>
       <ul>
+        <li>The GOAT resources</li>
         <li>Learning how to learn</li>
+        <li>NeetCode</li>
         <li>Problem solving</li>
         <li>Take breaks</li>
         <li>Everything must be happening for a reason</li>
@@ -61,6 +63,7 @@ export default function Course() {
         <li>Most people are nice</li>
         <li>The Knowledge Venn Diagram</li>
         <li>Communicating in a succint manner</li>
+        <li>A more detailed timeline</li>
       </ul>
 
     <li>Technical topics</li>
