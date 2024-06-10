@@ -8,7 +8,7 @@ const parentStyle = {
 
 
 
-export default function RealisticTimeline() {
+export default function yourBackground() {
     return (<> 
     <nav>
             <ul>      
