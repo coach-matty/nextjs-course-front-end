@@ -11,18 +11,15 @@ const mattFace = {
   height: 400,
 }
 
-const wordSpacing = {
-  padding: 0 
-}
-
-const navBar = {
-  
+const navStlye = {
+  backgroundColor: '#96C8EE',
+  padding: 10
 }
 
 
 export default function Home() {
   return (<>
-      <nav>
+      <nav style={navStlye}>
             <ul>      
             <li><Link href="/">Home</Link></li>
             <li><Link href="/course">Course</Link></li>
