@@ -32,7 +32,7 @@ export default function yourBackground() {
             My background matters. Yours matters here, too. It matters a lot.
         </p>
 
-        <p> I'd probably go ahead and lump everyone into different categories.
+        <p> I'm going to lump everyone into different categories.
             It may be helpful to see which category you fit into and how it plays a role. This is
             all just my opinions.
             <ul>
