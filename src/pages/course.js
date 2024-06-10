@@ -48,7 +48,7 @@ export default function Course() {
         <li><Link href="/lessons/sectionTwo/interviewedByHumans">You're being interviewed by humans</Link></li>
         <li><Link href="/lessons/sectionTwo/willThisBeDifficult">Will this be difficult?</Link></li>
         <li><Link href="/lessons/sectionTwo/yourBackground">Knoweldge Check</Link></li>
-        <li><Link href="/lessons/sectionTwo/Help">I am once again asking for your help</Link></li>
+        <li><Link href="/help">I am once again asking for your help</Link></li>
       </ul>
     </li>
     <li>General Skills / Unsolicited advice</li>
