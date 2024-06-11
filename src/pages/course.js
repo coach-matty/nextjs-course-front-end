@@ -63,6 +63,7 @@ export default function Course() {
         <li>Most people are nice</li>
         <li>The Knowledge Venn Diagram</li>
         <li>Communicating in a succint manner</li>
+        <li>Using and Improving the runbook</li>
         <li>A more detailed timeline</li>
       </ul>
 

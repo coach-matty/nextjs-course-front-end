@@ -20,8 +20,10 @@ export default function RealisticTimeline() {
     </nav>
     <div style={parentStyle}>
 
-        <h1>workin on it!</h1>
-
+        <h1>Will this be difficult?</h1>
+        <p>The answer to this question depends on your experience and what sort of prep you're currently doing.</p>
+        <p>But yes, it's going to be difficult and take a lot of time and effort.</p>
+        <p>You can absolutely do it - I did it! And so did tons of other people. Believe in yourself and take it one day at a time.</p>
         
         </div>
         </>);
