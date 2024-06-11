@@ -6,17 +6,18 @@ const parentStyle = {
     padding: 100
 }
 
-
+const navStlye = {
+    backgroundColor: '#96C8EE',
+    padding: 10
+  }
 
 export default function yourBackground() {
     return (<> 
-    <nav>
-            <ul>      
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/course">Course</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/help">How you can help</Link></li>
-        </ul>
+    <nav style={navStlye} >
+            <button><Link href="/">Home</Link></button>
+            <button><Link href="/course">Course</Link></button>
+            <button><Link href="/contact">Contact</Link></button>
+            <button><Link href="/help">How you can help</Link></button>
     </nav>
     <div style={parentStyle}>
 
@@ -37,7 +38,7 @@ export default function yourBackground() {
             all just my opinions.
             <ul>
                 <li>People with a CS  degree and prior experience</li>
-                <p>Yeet</p>
+                <p>These people stand the best shot obviously. The industry still values a degree AND you have the prior experience that we all desperately wanted at one point. If you're all cleaned up in terms of resume and soft skills - you should be able to get an interiew and a job.</p>
                 <li>People with a CS degree and no experience</li>
                 <p>Yeet</p>
                 <li>People with college degree and some nerdiness</li>

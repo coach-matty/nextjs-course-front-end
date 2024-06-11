@@ -14,13 +14,11 @@ const navStlye = {
 
 export default function Course() {
   return (<>
-      <nav style={navStlye}>
-            <ul>      
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/course">Course</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/help">How you can help</Link></li>
-        </ul>
+    <nav style={navStlye} >
+            <button><Link href="/">Home</Link></button>
+            <button><Link href="/course">Course</Link></button>
+            <button><Link href="/contact">Contact</Link></button>
+            <button><Link href="/help">How you can help</Link></button>
     </nav>
 <div style={myStyle}> 
   <h1>Lessons</h1> 
@@ -43,7 +41,7 @@ export default function Course() {
         <li><Link href="/lessons/sectionTwo/sectionTwoGoals">Goals for this section</Link></li>
         <li><Link href="/lessons/sectionTwo/yourBackground">What is your background?</Link></li>
         <li><Link href="/lessons/sectionTwo/leetcodeDemon">The leetcode demon</Link></li>
-        <li><Link href="/lessons/sectionTwo/perfectForuma">The perfect formula</Link></li>
+        <li><Link href="/lessons/sectionTwo/perfectFormula">The perfect formula</Link></li>
         <li><Link href="/lessons/sectionTwo/yourResume">Your resume</Link></li>
         <li><Link href="/lessons/sectionTwo/interviewedByHumans">You're being interviewed by humans</Link></li>
         <li><Link href="/lessons/sectionTwo/willThisBeDifficult">Will this be difficult?</Link></li>

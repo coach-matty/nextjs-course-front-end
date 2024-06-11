@@ -6,17 +6,18 @@ const parentStyle = {
     padding: 100
 }
 
-
+const navStlye = {
+    backgroundColor: '#96C8EE',
+    padding: 10
+  }
 
 export default function RealisticTimeline() {
     return (<> 
-    <nav>
-            <ul>      
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/course">Course</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/help">How you can help</Link></li>
-        </ul>
+    <nav style={navStlye} >
+            <button><Link href="/">Home</Link></button>
+            <button><Link href="/course">Course</Link></button>
+            <button><Link href="/contact">Contact</Link></button>
+            <button><Link href="/help">How you can help</Link></button>
     </nav>
     <div style={parentStyle}>
 
