@@ -1,13 +1,11 @@
 import Link from "next/link";
 import styles from './styles.module.css';
+import NavBar from './navBar';
 
 export default function Contact() {
   return (<>
     <nav className={styles.navStyle} >
-            <button><Link href="/">Home</Link></button>
-            <button><Link href="/course">Course</Link></button>
-            <button><Link href="/contact">Contact</Link></button>
-            <button><Link href="/help">How you can help</Link></button>
+      <NavBar></NavBar>
     </nav>
     <div className={styles.centeredText}>
     <h1>Contact</h1>

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import styles from './styles.module.css';
+import NavBar from './navBar';
+
 
 const mattFaceContainer = {
   textAlign: 'center'
@@ -14,10 +16,7 @@ const mattFace = {
 export default function Home() {
   return (<>
     <nav className={styles.navStyle} >
-            <button className={styles.buttonStyle}><Link href="/">Home</Link></button>
-            <button className={styles.buttonStyle}><Link href="/course">Course</Link></button>
-            <button className={styles.buttonStyle}><Link href="/contact">Contact</Link></button>
-            <button className={styles.buttonStyle}><Link href="/help">How you can help</Link></button>
+      <NavBar></NavBar>
     </nav>
     <div style={mattFaceContainer}>
       <img style={mattFace} src="/images/matt_face.png" alt="Coach Matty's Face" />

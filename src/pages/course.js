@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from './styles.module.css';
-
+import NavBar from './navBar';
 
 const myStyle = {
   backgroundColor: '#E5E5E5',
@@ -11,10 +11,7 @@ const myStyle = {
 export default function Course() {
   return (<>
     <nav className={styles.navStyle}  >
-            <button><Link href="/">Home</Link></button>
-            <button><Link href="/course">Course</Link></button>
-            <button><Link href="/contact">Contact</Link></button>
-            <button><Link href="/help">How you can help</Link></button>
+      <NavBar></NavBar>
     </nav>
 <div style={myStyle}> 
   <h1>Lessons</h1> 

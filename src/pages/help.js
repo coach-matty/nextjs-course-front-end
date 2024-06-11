@@ -1,28 +1,15 @@
-import Link from "next/link";
+import React from 'react';
 import styles from './styles.module.css';
-
-const parentStyle = {
-    backgroundColor: '#E5E5E5',
-    height: 550,
-    padding: 100
-}
-
-const navStlye = {
-    backgroundColor: '#96C8EE',
-    padding: 10
-  }
-
+import NavBar from './navBar';
 
 export default function Help() {
     return (<> 
     <nav className={styles.navStyle}  >
-            <button><Link href="/">Home</Link></button>
-            <button><Link href="/course">Course</Link></button>
-            <button><Link href="/contact">Contact</Link></button>
-            <button><Link href="/help">How you can help</Link></button>
+        <NavBar></NavBar>
     </nav>
 
 <div className={styles.centeredText}>
+
     <h1>HELP ME!</h1>
         <h2>There are TWO ways you can help!</h2>
         <div>
