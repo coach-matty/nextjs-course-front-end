@@ -6,20 +6,22 @@ const parentStyle = {
     padding: 100
 }
 
-const navStlye = {
+const navStyle = {
     backgroundColor: '#96C8EE',
-    padding: 10
+    padding: 10,
+    textAlign: 'center'
   }
+
 
 export default function yourBackground() {
     return (<> 
-    <nav style={navStlye} >
+    <nav style={navStyle} >
             <button><Link href="/">Home</Link></button>
             <button><Link href="/course">Course</Link></button>
             <button><Link href="/contact">Contact</Link></button>
             <button><Link href="/help">How you can help</Link></button>
     </nav>
-    <div style={parentStyle}>
+    <body style={parentStyle}>
 
         <h1>How your background comes into play</h1>
         <p>Hello again. Let's talk about your background and the role it plays in this entire process.</p>
@@ -50,7 +52,7 @@ export default function yourBackground() {
             </ul>
         </p>
         
-        </div>
+        </body>
         </>);
 }
 

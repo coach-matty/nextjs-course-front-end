@@ -1,20 +1,16 @@
 import Link from "next/link";
+import styles from './styles.module.css';
+
 
 const myStyle = {
   backgroundColor: '#E5E5E5',
-  height: 6000,
+  height: '100%',
   padding: 100
 };
 
-const navStlye = {
-  backgroundColor: '#96C8EE',
-  padding: 10
-}
-
-
 export default function Course() {
   return (<>
-    <nav style={navStlye} >
+    <nav className={styles.navStyle}  >
             <button><Link href="/">Home</Link></button>
             <button><Link href="/course">Course</Link></button>
             <button><Link href="/contact">Contact</Link></button>
