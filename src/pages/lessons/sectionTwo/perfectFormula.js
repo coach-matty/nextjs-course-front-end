@@ -20,7 +20,15 @@ export default function RealisticTimeline() {
     </nav>
     <div style={parentStyle}>
 
-        <h1>workin on it!</h1>
+        <h1>The Perfect Formula</h1>
+        <p>I personally believe that the perfect formula for getting a SWE job is 3 part recipe.</p>
+
+        <h2>Solid Soft Skills</h2>
+
+
+        <h2>Leetcode Ability</h2>
+
+        <h2>Sound Software Engineering fundamentals </p>
 
         
         </div>
