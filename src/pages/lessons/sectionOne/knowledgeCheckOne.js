@@ -1,4 +1,7 @@
 import Link from "next/link";
+import styles from './styles.module.css';
+import NavBar from "../../navBar";
+
 
 const parentStyle = {
     backgroundColor: '#E5E5E5',
@@ -13,11 +16,8 @@ const navStlye = {
 
 export default function KnoweldgeCheckOne() {
     return (<> 
-    <nav style={navStlye} >
-            <button><Link href="/">Home</Link></button>
-            <button><Link href="/course">Course</Link></button>
-            <button><Link href="/contact">Contact</Link></button>
-            <button><Link href="/help">How you can help</Link></button>
+    <nav className={styles.navStyle} >
+        <NavBar></NavBar>
     </nav>
     <div style={parentStyle}>
 

@@ -1,0 +1,30 @@
+/* Button.module.css */
+.buttonStyle {
+    display: inline-block; /* Or desired display type (block, inline) */
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin: 0px 10px 0px 10px;
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Add rounded corners */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Indicate clickable behavior */
+    background-color: #ffffff; /* Set default background color */
+    color: black; /* Set default text color */
+    text-decoration: none; /* Remove underline from text */
+    text-align: center; /* Center text within button */
+    transition: background-color 0.2s ease-in-out; /* Add smooth transition on hover */
+  }
+
+  .navStyle {
+    text-align: center;
+    background-color: #96C8EE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .centeredText {
+    text-align: center;
+    background-color: #E5E5E5;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }

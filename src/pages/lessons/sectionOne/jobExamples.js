@@ -1,4 +1,6 @@
 import Link from "next/link";
+import NavBar from "../../navBar";
+import styles from './styles.module.css';
 
 const parentStyle = {
     backgroundColor: '#E5E5E5',
@@ -13,13 +15,10 @@ const navStlye = {
 
 export default function JobExamples() {
     return (<> 
-    <nav style={navStlye}>
-            <button><Link href="/">Home</Link></button>
-            <button><Link href="/course">Course</Link></button>
-            <button><Link href="/contact">Contact</Link></button>
-            <button><Link href="/help">How you can help</Link></button>
+    <nav className={styles.navStyle}>
+            <NavBar></NavBar>
     </nav>
-    <div style={parentStyle}>
+    <div styles={styles.centeredText}>
 
         <h1>Job examples</h1>
         
